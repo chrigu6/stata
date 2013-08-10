@@ -1,0 +1,224 @@
+/* Stylesheet for new login redesign */
+
+.overlay-login2
+{
+  -moz-border-radius: 5px;
+       border-radius: 5px;
+
+  padding-left: 10px;
+    text-align: left;
+         width: 100%;
+}
+
+.overlay-login2 .left-area {
+  width: 33%;
+}
+
+#overlay_login_form {
+  width: 67%; /* 100 - left-area */
+  position: relative;
+}
+
+.overlay-login2 h1#login-overlay-title
+{
+  margin: 5px 0 5px 0;
+  font-weight: normal;
+}
+
+.overlay-login2 p {
+  line-height: 1.5em;
+}
+
+.overlay-login2 p.welcome-mesage {
+  text-indent: 20px;
+  color: #333333;
+  margin: 2px 0;
+}
+
+.overlay-login2 #game-extensions-icon,
+.overlay-login2 #video-highlights-icon,
+.overlay-login2 #gf-avatar-icon,
+.overlay-login2 #stats-central-enhance
+{
+  height: 16px;
+}
+
+.overlay-login2 #game-extensions-icon
+{
+  background: url(/static/images/navNavigationPlugin/EASHeader2/EAS_SignIn_Icon_GameExtension.png) 0 0 no-repeat;
+}
+
+.overlay-login2 #video-highlights-icon
+{
+  background: url(/static/images/navNavigationPlugin/EASHeader2/EAS_SignIn_Icon_VideoHighlight.png) 0 0 no-repeat;
+}
+
+.overlay-login2 #gf-avatar-icon
+{
+  background: url(/static/images/navNavigationPlugin/EASHeader2/EAS_SignIn_Icon_GameFace.png) 0 0 no-repeat;
+}
+
+.overlay-login2 #stats-central-enhance
+{
+  background: url(/static/images/navNavigationPlugin/EASHeader2/EAS_SignIn_Icon_StatsCentral.png) 0 0 no-repeat;
+  margin-bottom: 7px;
+}
+
+.overlay-login2 .login-form {
+  margin: 30px 5px 0;
+  position: relative;
+  width: 240px;
+}
+
+.overlay-login2 #overlay-login-anchor {
+  position: absolute;
+  z-index: -1;
+  text-indent: -9999em;
+}
+
+.overlay-login2 .login-confirmation {
+  float: left;
+}
+
+.overlay-login2 .login-error-msg {
+  position: absolute;
+  top: -27px;
+}
+
+.overlay-login2 .login-error-msg p {
+    background-color: #ff0000;
+    color: white;
+    margin: 0;
+    padding: 3px 0;
+    text-indent: 6px;
+    font: arial bold #FFF;
+    border: 0;
+    width: 229px;
+}
+
+.overlay-login2 .login-error-msg p a {
+    color: white;
+}
+
+.overlay-login2 .input-error-marker {
+  background: #ff0000;
+  bottom:0;
+  height: 25px;
+  left: -8px;
+  position: absolute;
+  width: 6px;
+}
+
+.overlay-login2 .form-row {
+  margin: 0 0 7px;
+  position: relative;
+}
+
+.overlay-login2 .form-row input[type=text],
+.overlay-login2 .form-row input[type=password] {
+  width: 218px;
+  border: 1px solid #ccc;
+  border-bottom: 0px none;
+  padding-left:10px;
+}
+
+.overlay-login2 .form-row input[type=password].ie {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay-login2 .form-row label.overlay-stay-signed {
+  color: #333;
+  float: left;
+}
+
+.overlay-login2 .form-row label.overlay-stay-signed span {
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.overlay-login2 .form-row a.forgot-password {
+  color: #0079F7;
+  float: right;
+  margin-right: 10px;
+}
+
+.overlay-login2 .form-row span.join-now {
+  color: #0079F7;
+  font-family: "EASBold",Arial,Helvetica,sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.overlay-login2 span.arrow-right {
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #2996FF;
+  border-top: 4px solid transparent;
+  display: block;
+  height: 0;
+  margin: 11px 3px 3px 4px;
+  width: 0;
+}
+
+.overlay-login2 .form-row.submit {
+  color: #0079F7;
+  margin-top: 62px;
+  text-transform: capitalize;
+}
+
+.overlay-stay-signed-row {
+  overflow : hidden;
+}
+
+/**
+ * ReCaptcha Overlay login integration.
+ */
+#overlay_login_form .recaptcha {
+  margin-top: 9px;
+}
+
+.recaptcha .login-confirmation {
+  position: absolute;
+  right: 23px;
+  top: 31px;
+}
+
+.recaptcha .form-row.submit {
+  margin: 0;
+}
+
+.recaptcha .esc-button .arrow-right-white {
+  margin-left: 0;
+}
+
+#recaptcha_widget label {
+  margin-bottom: 9px;
+}
+
+#overlay_login_form .blocked .login-error-msg {
+  top: -50%;
+}
+
+#overlay_login_form .login-error-msg p {
+  border: 0 none;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  text-indent: 0;
+  width: 220px;
+}
+
+#overlay_login_form .login-error-msg .arrow-right {
+  display: inline-block;
+  border-left: 4px solid #FFF;
+  margin: 0 0 0 5px;
+  vertical-align: middle;
+}
+
+#overlay_login_form input[disabled="disabled"] {
+  background-color: #F0F0F0;
+}
+
+.recaptcha-placeholder > img {
+  margin-top: 30px;
+}

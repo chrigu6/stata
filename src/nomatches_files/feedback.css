@@ -1,0 +1,125 @@
+#feedbackForm{
+  text-align: left;
+  width:995px;
+  float:left;
+  height: auto;
+}
+.overlay-box-elements {
+  background: url(/static/images/easports/EAS_Notification_Feedback_BG.jpg) 0 0 repeat-x #C4C4C4;
+}
+
+#feedbackForm .text{
+  margin-bottom: 10px;
+}
+
+#feedbackForm .field{
+}
+
+#feedbackForm .column{
+  width:300px;
+  height:100%;
+  float:left;
+}
+#feedbackForm .column input{
+  width: 95%;
+}
+#feedbackForm .column select{
+  width: 220px;
+}
+
+#feedbackForm .column ul li{
+  list-style: none;
+  margin-bottom: 3px;
+  text-align: right;
+}
+
+#feedbackForm .column .title{
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #63b2ff;
+}
+
+#feedbackForm .column .description{
+  font-size:11px;
+  margin-bottom:50px;
+}
+#feedbackForm .column textarea{
+  width:99%;
+  height:80px;
+  margin-top:2px;
+}
+#feedbackForm .column .check{
+  width:auto;
+}
+
+#feedbackForm .left{
+  margin-right: 20px;
+  margin-top: 11px;
+  width:248px;
+}
+
+#feedbackForm .left2{
+  margin-right: 20px;
+  margin-top: 11px;
+  width:248px;
+}
+
+#feedbackForm .center{
+  margin-right: 17px;
+  margin-top:5px;
+  width:227px;
+}
+
+#feedbackForm .center input,select{
+  height: 20px;
+}
+
+#feedbackForm .right{
+  margin-top:13px;
+  width:287px;
+}
+
+#feedbackForm .right ul li{
+  text-align: left;
+}
+
+#feedbackForm .submit-btn{
+  float:right;
+}
+
+#feedbackForm .cross-btn{
+  position: fixed;
+  right: 44px;
+}
+
+#feedbackForm .bottom{
+  width:100%;
+  float:left;
+  height: 100%;
+  background-color: #b1b1b1;
+  font-size: 11px;
+}
+
+#feedbackForm .bottom p{
+  padding: 5px;
+}
+
+#feedbackForm .error {
+  background-color: #fe0000;
+  float: left;
+  height: 19px;
+  margin-right: 2px;
+  width: 5px;
+}
+
+#feedbackForm .error-msg {
+  background-color: #fe0000;
+  float: left;
+  font-size: 12px;
+  margin-bottom: 3px;
+  padding: 2px;
+  text-align: left;
+  width: 98%;
+  color: #ffffff;
+}

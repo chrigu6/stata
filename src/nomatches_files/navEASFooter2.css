@@ -1,0 +1,94 @@
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 { 
+
+  padding-bottom: 40px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .footer-container { 
+
+  background-image: url(http://cdn.www.easports.com/static/20130802.115824/images/navNavigationPlugin/EASFooter2/bg-footer.png);
+  background-repeat: repeat-x;
+  height: 54px;
+  margin-bottom: 13px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .footer { 
+
+  width: 976px;
+  margin: 0 auto;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .logo { 
+
+  display: inline-block;
+  margin-top: 11px;
+  margin-right: 17px;
+  float: left;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .links li { 
+
+  float: left;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 47px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .links a { 
+
+  color: #FFF;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .truste { 
+
+  float: right;
+  display: block;
+  text-indent: -9999em;
+  width: 130px;
+  height: 36px;
+  background-image: url(http://cdn.www.easports.com/static/20130802.115824/images/navNavigationPlugin/EASFooter2/truste.png);
+  margin-top: 7px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .copyright-container { 
+
+  width: 976px;
+  margin: 0 auto;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 .copyright-container a { 
+
+  color: #999999;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 ul.copyright { 
+
+  margin-left: 50px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 ul.copyright li { 
+
+  height: 17px;
+  list-style-type: none;
+  float: left;
+  border-left: 1px solid #262626;
+  padding-left: 9px;
+  padding-right: 8px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 ul.copyright li:first-child { 
+
+  border-left: 0px none;
+  padding-left: 0;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 ul.copyright li a { 
+
+  display: inline-block;
+  margin-top: 1px;
+
+}
+div.eas-plugin-navNavigationPlugin-widget-navEASFooter2 span.copyright { 
+
+  float: right;
+
+}
